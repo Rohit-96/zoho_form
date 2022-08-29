@@ -11,3 +11,206 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 500px;
+  min-height: 100vh;
+  background-image: url("./images/img2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.form {
+  /* height: 20%;
+  width: 50%; */
+  padding: 40px;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  background-color: #EBDEF0;
+  border-radius: 5px;
+  overflow-y: auto;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start; */
+}
+
+.input-container {
+  width: 40vw;
+  /* max-height: 100%; */
+  /* background-color:rgb(37, 219, 219); */
+  background-color: #F7F9F9 ;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: left;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; */
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+.input {
+  padding: 5px 15px 5px 5px;
+}
+
+.forgotten-password {
+  align-self: flex-end;
+  margin-top: 7px;
+}
+
+#login-btn {
+  align-self: center;
+  padding: 7px 30px;
+  margin-top: 30px;
+  border: none;
+  color: #fff;
+  background-color: rgb(255, 39, 147);
+  box-shadow: 2px 2px 2px rgb(204, 4, 121);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in;
+}
+
+#login-btn:hover {
+  background-color: rgb(204, 4, 121);
+  box-shadow: none;
+  transform: translateX(1px) translateY(1px);
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(204, 4, 121);
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear_form {
+  margin-left: 23%;
+  margin-top: 11px;
+}
+
+.progress_bar {
+  margin-left: 10%;
+  margin-top: 15px;
+  width: 100px;
+}
+
+.page {
+  font-size: small;
+  margin-top: 13px;
+  margin-left: 10px;
+}
+
+.submit_btn {
+  margin-left: 5px;
+}
+
+.back_btn {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.footer_text {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.label_head {
+  font-size:large;
+}
+
+.line-gap {
+  margin-top: 20px;
+  font-size: large;
+}
+
+.btn1 {
+  margin-top: -20px;
+}
+
+.bar1 {
+  margin-top: -8px;
+  margin-right: -25px;
+}
+
+.form1 {
+  margin-top: -10px;
+}
+
+.page1 {
+  margin-top: -10px;
+  margin-left: -25px;
+}
+
+.react-select {
+  width: 35%;
+}
+
+/* .checkbox {
+  margin-right: 15px;
+} */
+
+.checkbox {
+  margin-right: 15px;
+
+  width: 1.3em;
+  height: 1.3em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid black;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox:checked {
+  background-color: rgb(127, 130, 211);
+}
+
+.input-box {
+  border: none;
+  height: 35px;
+}
+
+.select {
+  height: 35px;
+  background-color: #fff;
+  border: none;
+}
